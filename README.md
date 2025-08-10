@@ -1,10 +1,13 @@
 This script allows you to send an email using Python's built-in smtplib and email libraries.
 
 **How it works**
+
 Setup:
+
 The script defines SMTP server settings, sender and receiver email addresses, and the email content (subject and body).
 
 **Message Construction:**
+
 It creates a MIME email message with the specified subject and body.
 
 **Sending:**
@@ -17,6 +20,7 @@ Edit the following variables in the script:
 - sender_email
 - sender_password
 - receiver_email
+  
 Run the script:
   `Python send_email.py`
 
