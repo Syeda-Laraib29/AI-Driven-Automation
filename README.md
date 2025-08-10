@@ -18,8 +18,9 @@ Edit the following variables in the script:
 - sender_password
 - receiver_email
 Run the script:
+  `Python send_email.py`
 
 **Notes**
-For Gmail, you may need to enable "App Passwords" if you have 2-Step Verification enabled.
-This script is for educational purposes. Do not share your credentials.
-If you want to use a local SMTP server for testing, change smtp_server to "localhost" and adjust the port as needed. Remove authentication lines if your local server does not require them.
+- For Gmail, you may need to enable "App Passwords" if you have 2-Step Verification enabled.
+- This script is for educational purposes. Do not share your credentials.
+- If you want to use a local SMTP server for testing, change smtp_server to "localhost" and adjust the port as needed. Remove authentication lines if your local server does not require them.
